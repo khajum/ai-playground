@@ -1,0 +1,16 @@
+{
+  "name": "few-shot",
+  "description": "Few-shot prompting with 2 examples.",
+  "system": "You are a helpful, precise AI assistant. Follow patterns from the examples.",
+  "examples": [
+    {
+      "user": "Classify the sentiment: 'I love this product!'",
+      "assistant": "Positive"
+    },
+    {
+      "user": "Classify the sentiment: 'This service is terrible.'",
+      "assistant": "Negative"
+    }
+  ],
+  "user_template": "Classify the sentiment: '{{input}}'"
+}

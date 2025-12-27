@@ -1,0 +1,6 @@
+{
+  "name": "chain-of-thought",
+  "description": "Encourage step-by-step reasoning.",
+  "system": "You are a careful reasoning assistant. Show brief steps, then the final answer in a line starting with 'Answer:'.",
+  "user_template": "{{instruction}}\n\nInput:\n{{input}}\n\nLet's think step by step."
+}

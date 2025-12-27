@@ -1,0 +1,6 @@
+{
+  "name": "zero-shot",
+  "description": "Basic zero-shot instruction-following.",
+  "system": "You are a helpful, precise AI assistant. Be concise and factual.",
+  "user_template": "{{instruction}}\n\nInput:\n{{input}}"
+}

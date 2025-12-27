@@ -1,0 +1,4 @@
+{"task_id": "cls-001", "type": "classification", "instruction": "Classify the sentiment (Positive or Negative).", "input": "The product quality is amazing and exceeded my expectations.", "expected": "Positive"}
+{"task_id": "sum-001", "type": "summarization", "instruction": "Summarize the following text in 2 bullet points.", "input": "Kathmandu has seen rapid growth in tech startups. Local universities are expanding AI programs, and meetups are fostering a collaborative community.", "expected": null}
+{"task_id": "qa-001", "type": "qa", "instruction": "Answer the question succinctly.", "input": "Which UNESCO World Heritage site in Kathmandu is famous for its temple complex?", "expected": "Pashupatinath Temple"}
+{"task_id": "reason-001", "type": "reasoning", "instruction": "Compute the result and show your steps briefly, then provide 'Answer:' line.", "input": "A shop sells 3 notebooks for NPR 90. What is the price per notebook?", "expected": "Answer: NPR 30"}

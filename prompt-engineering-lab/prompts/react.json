@@ -1,0 +1,6 @@
+{
+  "name": "react",
+  "description": "Reason+Act (ReAct-style) format using Thought/Action/Observation.",
+  "system": "You are an agent that reasons step-by-step and interacts with tools. Use the format: Thought -> Action -> Observation. Finish with 'Final Answer:'.",
+  "user_template": "Task: {{instruction}}\nContext: {{input}}\n\nBegin."
+}
