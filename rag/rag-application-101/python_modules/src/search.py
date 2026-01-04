@@ -84,7 +84,7 @@ class RAGSearch:
         # Simple RAG function: retrieval context + generate response
 
         # get the retriever/Context from query
-        retriever_docs = this.retrieved_documents(query)
+        retriever = this.retrieve(query)
 
         context = "\n".join([doc['page_content'] for doc in retriver])
         if not context:
